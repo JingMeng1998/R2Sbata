@@ -118,6 +118,14 @@ config server
 
 config server
 	option enabled '1'
+	option name '360DNS'
+	option ip 'doh.360.cn/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
 	option name 'AdGuard DNS'
 	option ip 'dns.adguard.com/dns-query'
 	option type 'https'
@@ -214,6 +222,22 @@ config server
 
 config server
 	option enabled '1'
+	option name '阿里'
+	option ip '223.5.5.5/dns-query	'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name '阿里DNS'
+	option ip 'dns.pub/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
 	option name '阿里云IPv4'
 	option ip '223.5.5.5'
 	option type 'udp'
@@ -297,6 +321,62 @@ config server
 	option name 'ONE'
 	option ip '115.159.220.214'
 	option type 'udp'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'GeekDNS'
+	option ip 'i.233py.com/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'Geek DNS'
+	option ip 'dns.233py.com/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'RixCloud'
+	option ip 'doh.rixcloud.dev/dns-query	'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name '红鱼DNS'
+	option ip 'rubyfish.cn/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'Blahdns'
+	option ip 'doh-jp.blahdns.com/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'AdGuard DNS'
+	option ip 'dns.adguard.com/dns-query'
+	option type 'https'
+	option server_group 'China'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'IIJ DNS'
+	option ip 'public.dns.iij.jp/dns-query'
+	option type 'https'
 	option server_group 'China'
 	option blacklist_ip '0'
 
@@ -511,7 +591,7 @@ config server
 config server
 	option enabled '1'
 	option name 'Google'
-	option ip 'dns.google/dns-query'
+	option ip 'i.233py.com/dns-quer'
 	option server_group 'China'
 	option blacklist_ip '0'
 	option type 'https'
@@ -648,6 +728,14 @@ config server
 	option name 'IBM Quad9'
 	option ip '9.9.9.9'
 	option type 'tls'
+	option server_group 'US'
+	option blacklist_ip '0'
+
+config server
+	option enabled '1'
+	option name 'DNS SB'
+	option ip 'doh.dns.sb/dns-query'
+	option type 'https'
 	option server_group 'US'
 	option blacklist_ip '0'
 
