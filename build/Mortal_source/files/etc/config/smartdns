@@ -309,12 +309,12 @@ config server
 	option blacklist_ip '0'
 
 config server
+	option enabled '1'
 	option name '百度ipv6'
 	option ip '2400:da00::6666'
 	option type 'udp'
 	option server_group 'China'
 	option blacklist_ip '0'
-	option enabled '0'
 
 config server
 	option enabled '1'
